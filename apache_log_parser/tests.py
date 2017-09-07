@@ -1,9 +1,8 @@
-
 import unittest
 import apache_log_parser
 import datetime
 import doctest
-import os.path
+
 
 class ApacheLogParserTestCase(unittest.TestCase):
     maxDiff = None
@@ -133,7 +132,6 @@ class ApacheLogParserTestCase(unittest.TestCase):
 
     def test_doctest_readme(self):
         doctest.testfile("../README.md")
-
 
 
 if __name__ == '__main__':
